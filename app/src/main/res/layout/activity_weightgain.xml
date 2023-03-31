@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/submodule"
+    tools:context=".weightgain">
+
+    <TextView
+        android:id="@+id/wgbeg"
+        style="@style/textstyle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="284dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/if_you_ve_been_working_out_consistently_for_the_last_six_months_or_more_then_you_re_most_likely_at_an_intermediate_level"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/wgbegbtn"
+        android:layout_width="266dp"
+        android:layout_height="82dp"
+        android:text="Beginner workout plan"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/wgbeg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wgint" />
+
+    <Button
+        android:id="@+id/meal2btn"
+        android:layout_width="277dp"
+        android:layout_height="80dp"
+        android:text="@string/nutrition_guide"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wgintbtn" />
+
+    <TextView
+        android:id="@+id/wgint"
+        style="@style/textstyle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/if_you_are_new_to_working_out_on_a_regular_basis_begin_with_beginner_exercises"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/wgintbtn"
+        android:layout_width="283dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="32dp"
+        android:text="Intermediate workout plan"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wgbeg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

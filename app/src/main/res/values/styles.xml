@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/audiowide</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#2D216E</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textstyle2" parent="textstyle">
+        <item name="android:textColor">#A1FFFFFF</item>
+    </style>
+
+    <style name="textstyle3" parent="textstyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">428dp</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="textstyle7" parent="textstyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#361563</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="mealtextstyle" parent="textstyle3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:fontFamily">@font/audiowide</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textColor">#D8EAF0F1</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="small_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="number">
+        <item name="android:layout_width">61dp</item>
+        <item name="android:layout_height">69dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

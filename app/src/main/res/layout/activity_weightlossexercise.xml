@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/a"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n1. Pushups"
+                android:textAlignment="center"
+                android:textColor="#DF0B133C" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView3"
+                android:layout_width="294dp"
+                android:layout_height="172dp"
+                android:src="@drawable/pushups" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n2. Lunges" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView"
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/lunges" />
+
+            <TextView
+                android:id="@+id/textViewx"
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n3. Bodyweight Squats" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/bodyweightsquat" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n4. Burpees" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/burpee" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n5. Planks" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/plank" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

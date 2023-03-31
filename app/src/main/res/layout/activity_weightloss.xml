@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/submodule"
+    tools:context=".weightloss">
+
+    <TextView
+        android:id="@+id/wlbeg"
+        style="@style/textstyle3"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/exercise_is_helpful_for_weight_loss_and_maintaining_weight_loss_exercise_can_increase_metabolism_or_how_many_calories_you_burn_in_a_day_it_can_also_help_you_maintain_and_increase_lean_body_mass_which_also_helps_increase_number_of_calories_you_burn_each_day"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/wlbegbtn"
+        android:layout_width="265dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/weight_loss_workout_plan"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wlbeg" />
+
+    <Button
+        android:id="@+id/wlmealbtn"
+        android:layout_width="269dp"
+        android:layout_height="78dp"
+        android:text="@string/nutrition_guide"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wlbegbtn"
+        app:layout_constraintVertical_bias="0.307" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

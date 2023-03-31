@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="For each exercise, do 2 to 5 sets of 6 to 15 repetitions. Increas the repetitions by 2 per week for every workout."
+                android:textAlignment="center" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 1. PUSHUP" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/pushups" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 2. BENCH PRESS" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/benchpress" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 3. BURPEES" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/burpee" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 4. BARBELL PRESS" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/barbellpress" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 5. PULLUPS" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/pullups" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 6. SHOULDER PRESS" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/shoulderpress" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 7. DUMBBLE CURLS" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/bicepcurl" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 8. LUNGES" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/lunges" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 9.  DEADLIFTS" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/deadlifts" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 10. SQUATS" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/squats" />
+
+            <TextView
+                style="@style/textstyle7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 11. BARBELL SQUAT " />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="292dp"
+                android:layout_height="218dp"
+                android:src="@drawable/barbellsquat" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

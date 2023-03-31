@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GET FiT</string>
+    <string name="weight_gain_plan">Weight Gain PLan</string>
+    <string name="weight_loss_plan">Weight Loss Plan</string>
+    <string name="weight_gain_plans">WEIGHT GAIN PLANS</string>
+    <string name="weight_loss_plans">WEIGHT LOSS PLANS</string>
+    <string name="if_you_ve_been_working_out_consistently_for_the_last_six_months_or_more_then_you_re_most_likely_at_an_intermediate_level">If you\'ve been working out consistently for the last six months or more, then you\'re most likely at an intermediate level</string>
+    <string name="intermediate">INTERMEDIATE</string>
+    <string name="if_you_are_new_to_working_out_on_a_regular_basis_begin_with_beginner_exercises">If you are new to working out on a regular basis, begin with Beginner exercises</string>
+    <string name="beginner">BEGINNER</string>
+    <string name="muscle_gain_plan">MUSCLE GAIN PLAN</string>
+    <string name="workout_s_for_weight_loss">Workout\'s for weight loss</string>
+    <string name="weight_loss_workout_plan">Weight loss workout plan</string>
+    <string name="nutration_guides">Nutration guides</string>
+    <string name="nutrition_guide">Nutrition Guide</string>
+    <string name="exercise_is_helpful_for_weight_loss_and_maintaining_weight_loss_exercise_can_increase_metabolism_or_how_many_calories_you_burn_in_a_day_it_can_also_help_you_maintain_and_increase_lean_body_mass_which_also_helps_increase_number_of_calories_you_burn_each_day">Exercise is helpful for weight loss and maintaining weight loss. Exercise can increase metabolism, or how many calories you burn in a day. It can also help you maintain and increase lean body mass, which also helps increase number of calories you burn each day.</string>
+    <string name="wlmealplantext">\n\nReducing sugars and starches, or carbs, from your diet can help curb your appetite, lower your insulin levels, and make you lose weight. But the long-term effects of a low carb diet are not yet known. A reduced calorie diet could be more sustainable. \n\n\n1.Eat a high protein breakfast. Eating a high protein breakfast could help reduce cravings and calorie intake throughout the day . \n\n\n2.Avoid sugary drinks and fruit juice.Empty calories from sugar aren’t useful to your body and can hinder weight loss. \n\n\n3.Drink water before meals. One study showed that drinking water before meals reduced calorie intake and may be effective in weight management. \n\n\n4.Choose weight-loss-friendly foods. Some foods are better for weight loss than others. Here is a list of healthy weight-loss-friendly foods. \n\n\n5.Eat soluble fiber. Studies show that soluble fibers may promote weight loss. Fiber supplements like glucomannan can also help. \n\n\n6.Drink coffee or tea. Caffeine consumption can boost your metabolism. \n\n\n7.Base your diet on whole foods. They’re healthier, more filling, and much less likely to cause overeating than processed foods. \n\n\n8.Eat slowly. Eating quickly can lead to weight gain over time, while eating slowly makes you feel more full and boosts weight-reducing hormones. \n\n\n9.Get good quality sleep. Sleep is important for many reasons, and poor sleep is one of the biggest risk factors for weight gain\n\n\n</string>
+    <string name="a">For each exercise, do 2 to 5 sets of 6 to 15 repetitions.</string>
+    <string name="mealplan2">\n\nYour diet should include nutrient-dense foods, 20–30 grams of protein with each meal and snack, and you should restrict alcohol and deep-fried or high-sugar foods. This ensures you get all the important nutrients your body needs for building muscle and overall health. \n\nRule 1: Eat frequently and eat good quality foods \n\nRule 2: Choose appropriate Protein sources \n\nRule 3: Try to make sure your intake of leucine is around 2-3g or more during each feeding \n\nRule 4: Consume the appropriate amount of energy \n\nRule 5: Select appropriate carbohydrates \n\nRule 6: Plenty of Micronutrients \n\nRule 7: Knowing how to cheat \n\nRule 8: Avoid the dietary pitfalls \n\nRule 9: Eating for muscle is a long term journey\n\n\n</string>
+</resources>

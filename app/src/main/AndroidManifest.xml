@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GETFiT">
+        <activity
+            android:name=".musclegainint"
+            android:exported="false"
+            android:parentActivityName=".weightgain"/>
+        <activity
+            android:name=".musclegainbeg"
+            android:exported="false"
+            android:parentActivityName=".weightgain"/>
+        <activity
+            android:name=".mealplan2"
+            android:exported="false"
+            android:parentActivityName=".weightgain"/>
+        <activity
+            android:name=".weightlossexercise"
+            android:exported="false"
+            android:parentActivityName=".weightloss" />
+        <activity
+            android:name=".mealplan"
+            android:exported="false"
+            android:parentActivityName=".weightloss" />
+        <activity
+            android:name=".weightloss"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".weightgain"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
